@@ -1,6 +1,6 @@
 
 
-body {
+div {
 
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -24,9 +24,9 @@ img {
 
 @keyframes image-mv{
   0% { left: 0%; top: 0%;}
-  25% { left: 350px;top: 0%;}
-  50% { left: 350px ;top: 350px;}
-  75% { left: 0%;top: 350px;}
+  25% { left: 320px;top: 0%;}
+  50% { left: 320px ;top: 300px;}
+  75% { left: 0%;top: 300px;}
   100% { left: 0%;top: 0%;}
 }
 @keyframes background-change {
