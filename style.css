@@ -6,6 +6,10 @@ body {
   animation-iteration-count: infinite;
   position: relative;
   animation-name: background-change;
+  width: 400px;
+  height: 400px;
+  display: block;
+  border: 3px black solid;
 }
 
 img {
@@ -20,10 +24,10 @@ img {
 
 @keyframes image-mv{
   0% { left: 0%; top: 0%;}
-  25% { left: calc(100% - 100px); top: 0%;}
-  50% { left: calc(100% - 100px); bottom: calc(0% - 150px);}
-  75% { left: 0%; bottom: calc(0% - 150px); }
-  100% { left: 0%; top:0%;}
+  25% { left: 350px;top: 0%;}
+  50% { left: 350px ;top: 350px;}
+  75% { left: 0%;top: 350px;}
+  100% { left: 0%;top: 0%;}
 }
 @keyframes background-change {
   0% {background-color: red;}
